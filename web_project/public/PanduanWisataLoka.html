@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panduan Wisata Lokal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="  bg-gradient-to-b from-[#494040] to-[#FFFFFF] relative w-full md:h-[1000px] lg:h-[1200px] xl:h-[1300px] 2xl:h-[1400px]" >
+        <img src="../img/dada.png" alt="danau" class="w-full h-full object-cover absolute mix-blend-overlay"/>
+        <header>
+            <div class="flex flex-row justify-between relative z-2"> 
+                <a href="/homepage-url">
+                    <img src="/img/Logo.png" alt="logo" class="md:w-[145px] md:h-[20px] lg:w-[175px] lg:h-[25px] xl:w-[220px] xl:h-[30px] 2xl:w-[250px] 2xl:h-[35px] ml-[50px] md:mt-[30px]" />
+                </a>
+                    <div class="order-2">
+                        <ul class="flex gap-[35px] mr-[50px] md:mt-[25px] lg:text-[18px] xl:text-[20px] 2xl:text-[24px] text-white">
+                            <li><a href="/web_project/public/LandingPage.html" class="hover:underline underline-offset-4">Home</a></li>
+                            <li><a href="./About.html" class="hover:underline underline-offset-4" >About </a></li>
+                            <li><a href="/web_project/public/DestinasiTuris.html" class="hover:underline underline-offset-4">Tourist Destination</a></li>
+                            <li><a href="/Lainnya.html" class="hover:underline underline-offset-4">Other</a></li>
+                            <li><a href="/IMK/SignIn-Html-A6CKE/index.html" class="hover:underline underline-offset-4">Account</a></li>
+                        </ul>
+                    </div>
+            </div>   
+        </header>
+
+            <div class="bg-[#FFFFFF] absolute rounded-2xl md:w-[700px] md:h-[700px] md:left-[35px] md:top-[100px] justify-center items-center  lg:w-[700px] lg:h-[700px] lg:left-[170px] xl:top-[130apx] xl:w-[700px] xl:h-[700px] xl:left-[400px] xl:top-[190px] 2xl:w-[700px] 2xl:h-[700px] 2xl:left-[430px] 2xl:top-[190px]    ">
+                <h1 class="text-black font-bold font-sans text-5xl text-center md:mt-[50px]">Panduan Wisata Lokal</h1>
+                <button id="makan" class="cursor-pointer absolute rounded-[90px] bg-[#285430] md:w-[500px] md:h-[80px] md:left-[100px] md:top-[170px]">
+                    <span class="text-white absolute font-bold font-sans text-4xl text-center md:top-[15px] md:left-[50px]">Tempat Makan Terbaik</span>
+                </button>
+
+                <button id="atraksi" class="cursor-pointer absolute rounded-[90px] bg-[#285430] md:w-[500px] md:h-[80px] md:left-[100px] md:top-[300px]">
+                    <span class="text-white absolute font-bold font-sans text-4xl text-center md:top-[15px] md:left-[50px]">Atraksi Wisata Terkenal</span>
+                </button>
+
+                <button id="aktivitas" class="cursor-pointer absolute rounded-[90px] bg-[#285430] md:w-[500px] md:h-[80px] md:left-[100px] md:top-[430px]">
+                    <span class="text-white absolute font-bold font-sans text-4xl text-center md:top-[15px] md:left-[100px]">Aktivitas Populer</span>
+                </button>
+                <h1 class="text-[#285430] font-bold font-sans text-3xl text-center md:mt-[470px]">Local Guide Number : 081-222-333-444</h1>
+            </div>
+    </div>
+
+    <script>
+
+        const makan =document.getElementById("makan");
+        makan.addEventListener("click", function(){
+            window.location.href = './TempatMakanTerbaik.html'
+        });
+        const atraksi =document.getElementById("atraksi");
+        atraksi.addEventListener("click", function(){
+            window.location.href = './AtraksiWIsata.html'
+        });
+        const aktivitas =document.getElementById("aktivitas");
+        aktivitas.addEventListener("click", function(){
+            window.location.href = './Aktivitas Populer.html'
+        });
+
+
+</script>
+
+
+</body>
+</html>
